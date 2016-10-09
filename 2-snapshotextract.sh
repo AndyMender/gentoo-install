@@ -29,7 +29,7 @@ echo "Copying chroot adjustment scripts to chroot environment..."
 cp /gentoo-install/3-chrootadjust.sh $CHROOT
 cp /gentoo-install/4-kernelinstall.sh $CHROOT
 cp /gentoo-install/5-finaladjust.sh $CHROOT
-cp /gentoo-install/kernel-config $CHROOT/usr/src/linux/.config
+cp /gentoo-install/kernel-config $CHROOT
 cp /gentoo-install/fstab $CHROOT/etc/fstab
 cp /gentoo-install/wpa_supplicant.conf $CHROOT/etc/wpa_supplicant
 

@@ -24,6 +24,8 @@ emerge --ask --update --deep --newuse --quiet-build @world
 
 # Below packages will be needed later
 emerge --newuse --deep gentoo-sources sys-boot/grub:2 pciutils genkernel linux-firmware syslog-ng mlocate xfsprogs e2fsprogs dosfstools dhcpcd 
+echo "Moving kernel .config to /usr/src/linux symlinked directory..."
+cp ./kernel-config /usr/src/linux
 
 echo "Defining timezone data..."
 echo "Europe/Vienna" > etc/timezone
