@@ -1,5 +1,5 @@
 #!/bin/sh
-# Be sure to execute the below commands before launching this script!
+# Be sure to execute the below commands manually before launching this script!
 # CHROOT=/mnt/gentoo
 # chroot $CHROOT /bin/bash
 # source /etc/profile
@@ -17,15 +17,15 @@ echo "Selecting desktop system profile..."
 # The profile will not matter much later, because make.conf
 # overwrites all USE flags via "*-"
 eselect profile list
-eselect profile set 2
-
-echo "Adjusting world set to new profile..."
-emerge --ask --update --deep --newuse --quiet-build @world
+eselect profile set 3
 
 # Below packages will be needed later
 emerge --newuse --deep gentoo-sources sys-boot/grub:2 pciutils genkernel linux-firmware syslog-ng mlocate xfsprogs e2fsprogs dosfstools dhcpcd 
 echo "Moving kernel .config to /usr/src/linux symlinked directory..."
 cp ./kernel-config /usr/src/linux
+
+echo "Adjusting world set to new profile..."
+emerge --ask --update --deep --newuse --quiet-build @world
 
 echo "Defining timezone data..."
 echo "Europe/Vienna" > /etc/timezone
@@ -37,7 +37,7 @@ locale-gen
 
 echo "Selecting locale(s)..."
 eselect locale list
-eselect locale set 5
+eselect locale set 4
 
 echo "Updating environment..."
 env-update && source /etc/profile && export PS1="(chroot) $PS1"
