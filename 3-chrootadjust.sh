@@ -1,9 +1,9 @@
 #!/bin/sh
-# Finishing preparations of the new Gentoo environment
-CHROOT=/mnt/gentoo
-chroot $CHROOT /bin/bash
-source etc/profile
-export PS1="(chroot) $PS1"
+# Be sure to execute the below commands before launching this script!
+# CHROOT=/mnt/gentoo
+# chroot $CHROOT /bin/bash
+# source /etc/profile
+# export PS1="(chroot) $PS1"
 
 # *All of the below commands are executed within the chroot
 # *environment!
@@ -28,7 +28,7 @@ echo "Moving kernel .config to /usr/src/linux symlinked directory..."
 cp ./kernel-config /usr/src/linux
 
 echo "Defining timezone data..."
-echo "Europe/Vienna" > etc/timezone
+echo "Europe/Vienna" > /etc/timezone
 emerge --config sys-libs/timezone-data
 
 echo "Configuring locale(s)..."
