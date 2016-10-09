@@ -9,7 +9,10 @@ wget http://gd.tuwien.ac.at/opsys/linux/gentoo/releases/amd64/autobuilds/$DATE/s
 tar xjpf stage3-*.tar.bz2 --xattrs
 
 echo "Copying make.conf to new environment..."
+mkdir $CHROOT/etc/portage
+mkdir $CHROOT/etc/portage/package.use
 cp /gentoo-install/make.conf $CHROOT/etc/portage/make.conf
+cp /gentoo-install/useflag-selection $CHROOT/etc/portage/package.use/useflag-selection
 
 echo "Creating repository .conf file..."
 mkdir $CHROOT/etc/portage/repos.conf
