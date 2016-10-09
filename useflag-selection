@@ -65,6 +65,7 @@ dev-util/geany-plugins autoclose automark commander ctags devhelp enchant gtkspe
 dev-util/geany vte
 dev-util/gtk-doc doc highlight vim
 dev-util/pkgconfig 
+dev-vcs/git gtk tk mediawiki highlight subversion cgi gpg blksha1 webdav
 games-simulation/openttd timidity openmedia
 games-strategy/warzone2100 videos qt4
 gnome-base/librsvg -tools
