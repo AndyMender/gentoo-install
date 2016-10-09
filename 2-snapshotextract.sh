@@ -6,7 +6,7 @@ cd $CHROOT
 
 echo "Getting and extracting and the snapshot tarball..."
 wget http://gd.tuwien.ac.at/opsys/linux/gentoo/releases/amd64/autobuilds/$DATE/stage3-amd64-${DATE}.tar.bz2 
-tar xvjpf stage3-*.tar.bz2 --xattrs
+tar xjpf stage3-*.tar.bz2 --xattrs
 
 echo "Copying make.conf to new environment..."
 cp /gentoo-install/make.conf $CHROOT/etc/portage/make.conf
