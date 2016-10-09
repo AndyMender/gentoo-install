@@ -1,0 +1,230 @@
+app-admin/sudo offensive
+app-admin/syslog-ng dbi smtp spoof-source
+app-arch/bzip2  
+app-arch/engrampa caja magic 
+app-arch/p7zip rar doc
+app-arch/xz-utils 
+app-cdr/brasero libburn
+app-cdr/xfburn udev
+app-crypt/gcr gtk
+app-crypt/p11-kit libffi
+app-crypt/pinentry gnome-keyring
+app-editors/gvim cscope gtk motif ruby
+app-editors/vim lua ruby tcl vim-pager
+app-emulation/q4wine icoutils wineappdb
+app-emulation/wine fontconfig dos staging openal gecko osmesa run-exes s3tc mono 
+app-emulation/winetricks rar gtk
+app-misc/mc edit xdg
+app-text/asciidoc highlight
+app-text/atril caja
+app-text/ghostscript-gpl gtk
+app-text/pelican markdown examples
+app-text/poppler jpeg2k
+app-text/xmlto text
+dev-db/mariadb server extraengine 
+dev-games/physfs zip 
+dev-lang/lua deprecated
+dev-lang/orc 
+dev-lang/python tk
+dev-lang/ruby doc
+dev-libs/atk introspection
+dev-libs/expat 
+dev-libs/fribidi 
+dev-libs/glib 
+dev-libs/gmp 
+dev-libs/icu 
+dev-libs/libburn track-src-odirect
+dev-libs/libcdio 
+dev-libs/libcdio-paranoia 
+dev-libs/libffi 
+dev-libs/libgcrypt 
+dev-libs/libgee introspection
+dev-libs/libgit2 ssh
+dev-libs/libgpg-error 
+dev-libs/libpeas gtk
+dev-libs/libpcre  pcre16
+dev-libs/libpthread-stubs 
+dev-libs/libtasn1 
+dev-libs/libxdg-basedir doc
+dev-libs/libxml2 
+dev-libs/libxslt 
+dev-libs/openssl 
+dev-python/mysql-connector-python examples
+dev-python/mysql-python doc
+dev-python/pep8 doc
+dev-python/pillow jpeg2k tk doc examples
+dev-python/pycairo doc svg
+dev-python/pygobject libffi
+dev-python/pygtk doc
+dev-python/pyopengl tk
+dev-python/wxpython examples
+dev-qt/qtgui gtkstyle 
+dev-qt/qtlockedfile qt4
+dev-qt/qtsingleapplication qt4
+dev-util/geany-plugins autoclose automark commander ctags devhelp enchant gtkspell markdown multiterm overview scope soup
+dev-util/geany vte
+dev-util/gtk-doc doc highlight vim
+dev-util/pkgconfig 
+games-simulation/openttd timidity openmedia
+games-strategy/warzone2100 videos qt4
+gnome-base/librsvg -tools
+gnome-base/gvfs udev
+kde-base/kdelibs jpeg2k udev
+mate-base/mate base extras help notification themes
+mate-base/mate-applets-meta appindicator sensors
+mate-base/mate-menus introspection
+mate-extra/caja-extensions gksu image-converter mail open-terminal pidgin share wallpaper
+mate-extra/mate-power-manager applet
+media-gfx/graphviz gtk guile svg
+media-gfx/imagemagick corefonts fontconfig svg jpeg2k
+media-gfx/inkscape inkjar imagemagick visio wpg
+media-libs/aalib 
+media-libs/alsa-lib 
+media-libs/audiofile 
+media-libs/libdvdread 
+media-libs/libdvdnav 
+media-libs/faac 
+media-libs/faad2 
+media-libs/flac 
+media-libs/fontconfig 
+media-libs/freetype 
+media-libs/FusionSound cddb timidity
+media-libs/gd fontconfig
+media-libs/gst-plugins-base 
+media-libs/gst-plugins-good 
+media-libs/gst-plugins-ugly 
+media-libs/gst-plugins-bad 
+media-libs/gstreamer 
+media-libs/harfbuzz 
+media-libs/libaacplus 
+media-libs/libass  fontconfig
+media-libs/libcanberra gtk
+media-libs/libjpeg-turbo 
+media-libs/libmad 
+media-libs/libmikmod 
+media-libs/libmodplug 
+media-libs/libogg 
+media-libs/libopenraw gtk
+media-libs/libpng 
+media-libs/libsamplerate 
+media-libs/libsdl2 xscreensaver video tslib
+media-libs/libsdl video aalib joystick 
+media-libs/libtheora 
+media-libs/libv4l 
+media-libs/libvorbis 
+media-libs/mesa dri3 gbm egl osmesa 
+media-libs/openal 
+media-libs/openjpeg 
+media-libs/opus  
+media-libs/sdl-net 
+media-libs/sdl-sound mikmod physfs modplug 
+media-libs/smpeg 
+media-libs/vo-aacenc 
+media-libs/x265 
+media-libs/xine-lib gtk flac fusion imagemagick mmap musepack
+media-plugins/gst-plugins-a52dec 
+media-plugins/gst-plugins-cdparanoia 
+media-plugins/gst-plugins-dvdread 
+media-plugins/gst-plugins-faad 
+media-plugins/gst-plugins-flac 
+media-plugins/gst-plugins-jack 
+media-plugins/gst-plugins-libav 
+media-plugins/gst-plugins-mad 
+media-plugins/gst-plugins-meta 
+media-plugins/gst-plugins-mpeg2dec 
+media-plugins/gst-plugins-resindvd 
+media-plugins/gst-plugins-v4l2 
+media-plugins/gst-plugins-x264 
+media-sound/cdparanoia 
+media-sound/jack-audio-connection-kit 
+media-sound/lame 
+media-sound/mpg123 
+media-sound/wavpack 
+media-sound/xmms2 mlib-update sid vocoder asf modplug wavpack musepack sndfile server
+media-video/ffmpeg  aacplus cdio cpudetection faac flite jpeg2k libass libc4l opus schroedinger ssh v4l vdpau wavpack x265 postproc
+media-video/ffmpegthumbnailer gtk
+media-video/mpv cdio doc-pdf drm libass libmpv xscreensaver
+media-video/smplayer qt4 streaming 
+net-im/pidgin gnutls silc tk pie doc gtk gadu groupwise meanwhile mxit prediction xscreensaver zeroconf
+net-irc/hexchat gtk plugins libcanberra
+net-irc/weechat charset exec doc fifo irc logger scripts trigger xfer guile tcl ruby
+net-libs/libgadu gnutls
+net-libs/gnutls 
+net-libs/webkit-gtk webgl jit nsplugin doc
+net-misc/iputils -caps -filecaps
+net-misc/youtube-dl offensive
+net-wireless/wpa_supplicant ap wps
+sci-chemistry/pymol web
+sys-apps/attr 
+sys-apps/dbus 
+sys-apps/net-tools hostname
+sys-apps/openrc 
+sys-auth/consolekit pm-utils
+sys-boot/grub themes
+sys-devel/gcc sanitize
+sys-devel/gdb server
+sys-devel/gettext 
+sys-fs/udisks gptfdisk
+sys-kernel/gentoo-sources symlink
+sys-libs/binutils-libs 
+sys-libs/gpm 
+sys-libs/ncurses 
+sys-libs/zlib 
+sys-process/cronie anacron
+virtual/glu 
+virtual/jack 
+virtual/jpeg 
+virtual/libffi 
+virtual/libiconv 
+virtual/libintl 
+virtual/linux-sources firmware
+virtual/opengl 
+virtual/pkgconfig 
+www-client/elinks javascript finger
+www-client/midori doc xscreensaver jit
+www-client/w3m imlib gtk xface
+www-plugins/gnash nsplugin agg dump harden jemalloc openvg sdl-sound ssl doc gtk 
+x11-base/xorg-server xorg udev doc
+x11-libs/cairo 
+x11-libs/gdk-pixbuf introspection
+x11-libs/gtk+ introspection
+x11-libs/libdrm 
+x11-libs/libX11 
+x11-libs/libXau 
+x11-libs/libxcb 
+x11-libs/libXcursor 
+x11-libs/libXdamage 
+x11-libs/libXdmcp 
+x11-libs/libXext 
+x11-libs/libXfixes 
+x11-libs/libXft 
+x11-libs/libXi 
+x11-libs/libXrandr 
+x11-libs/libXrender 
+x11-libs/libxshmfence 
+x11-libs/libXv 
+x11-libs/libXxf86vm 
+x11-libs/pango introspection 
+x11-libs/pixman 
+x11-libs/libvdpau 
+x11-libs/wxGTK doc
+x11-misc/spacefm video-thumbnails
+x11-misc/tint2 battery examples tint2conf
+x11-proto/damageproto 
+x11-proto/dri3proto 
+x11-proto/fixesproto 
+x11-proto/glproto 
+x11-proto/inputproto 
+x11-proto/presentproto 
+x11-proto/kbproto 
+x11-proto/renderproto 
+x11-proto/videoproto 
+x11-proto/xcb-proto 
+x11-proto/xextproto 
+x11-proto/xf86driproto 
+x11-proto/xproto 
+x11-terms/xterm toolbar
+x11-themes/gnome-themes-standard gtk
+x11-themes/gtk-engines-murrine animation-rtl themes
+x11-themes/nimbus gtk
+x11-wm/openbox imlib svg xdg
