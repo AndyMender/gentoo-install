@@ -4,7 +4,7 @@
 echo "Preparing kernel sources and building kernel..."
 cd /usr/src/linux
 make menuconfig
-make && make modules_install
+MAKEOPTS="-j3" make && make modules_install
 make install
 
 echo "Building initramfs with genkernel..."

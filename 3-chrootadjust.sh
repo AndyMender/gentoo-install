@@ -19,13 +19,14 @@ echo "Selecting desktop system profile..."
 eselect profile list
 eselect profile set 3
 
-# Below packages will be needed later
-emerge --newuse --deep --ask gentoo-sources sudo sys-boot/grub:2 pciutils genkernel linux-firmware syslog-ng mlocate xfsprogs e2fsprogs dosfstools dhcpcd 
-echo "Moving kernel .config to /usr/src/linux symlinked directory..."
-cp ./kernel-config /usr/src/linux/.config
-
 echo "Adjusting world set to new profile..."
 emerge --ask --update --deep --newuse --quiet-build @world
+
+# Below packages will be needed later
+emerge --newuse --deep --ask --quiet-build wpa_supplicant gentoo-sources sudo sys-boot/grub:2 pciutils \
+	genkernel linux-firmware syslog-ng mlocate xfsprogs e2fsprogs dosfstools dhcpcd 
+echo "Moving kernel .config to /usr/src/linux symlinked directory..."
+cp ./kernel-config /usr/src/linux/.config
 
 echo "Defining timezone data..."
 echo "Europe/Vienna" > /etc/timezone
